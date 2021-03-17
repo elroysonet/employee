@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/emp', function () {
     return view('emp');
 });
 Route::get('/search', function () {
